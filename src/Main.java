@@ -82,7 +82,7 @@ public class Main {
     public static void task4 () {
         System.out.println("Задача 4");
 
-        int [] array1 = new int [] {4, 5, 3, 1, 12, 34, 16, 0, 11, 89, 100, 35};
+        int [] array1 = {4, 5, 3, 1, 12, 34, 16, 0, 11, 89, 100, 35};
         for (int i = 0; i < array1.length; i++) {
             if (array1[i] % 2 != 0) {
                 array1[i] ++;
